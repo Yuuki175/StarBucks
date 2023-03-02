@@ -13,7 +13,13 @@
         <div class="container">
             <div class="header__wrapper d--flex justify--between align--center py--1">
                 <div class="branding"><a href="#">Food <span>Factory</span></a></div>
-                <nav class="header__nav">
+                <button class="btn__show">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav class="header__nav py--1">
+                    <button class="btn__back">
+                        <i class="fas fa-arrow-right"></i>
+                    </button>
                     <div class="ul">
                         <ul class = "d--flex gap--4 align--center">
                             <li><a href="#" class="active">Home</a></li>
@@ -55,7 +61,7 @@
 
             <div class="product__cards">
                 <div class="product__item">
-                    <img src="./img/dummy.png" alt="">
+                    <img src="./img/salad1.jpg" alt="">
                     <div class="item__info">
                         <h3>Green Salad</h3>
                         <i class="far fa-heart"></i>
@@ -567,5 +573,7 @@
             })
         })
     </script>
+
+    <script src="./script.js"></script>
 </body>
 </html>
